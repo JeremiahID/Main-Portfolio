@@ -1,0 +1,367 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+
+body, html{
+    background-color: hsl(216, 18%, 16%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+ 
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 110px;
+    color: whitesmoke;
+    font-family: calibri;
+    letter-spacing: 4px;
+    font-weight: 900;
+
+
+}
+
+.links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.links a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: calibri;
+    font-size: 1.1rem;
+}
+
+.links a:hover{
+    color:hsl(183, 100%, 35%);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.theme{
+    margin-top: 50px;
+    color: whitesmoke;
+    font-family: calibri;
+    font-size: 2.3rem;
+}
+.arrow_theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.theme_2, .theme_3{
+    color: hsl(183, 100%, 35%);
+}
+
+.call_to_action{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+    
+}
+
+.call_to_action_1{
+    width: 100px;
+    height: 40px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    background-color: hsl(183, 100%, 35%);
+    font-family: calibri;
+    color: whitesmoke;
+    text-shadow: 2px 1px black;
+}
+
+.call_to_action_2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    font-family: calibri;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background-color:hsl(217, 10%, 25%) ;
+    color: whitesmoke;
+    border: 0px solid transparent;
+    font-weight: 800;
+}
+
+
+button:hover{
+    border: 2px solid whitesmoke;
+    background-color: transparent;
+}
+
+.theme_svg svg{
+    height: 400px;
+    width: 300px;
+    margin-left: 60px;
+}
+
+.footer{
+    border: 0px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
+}
+
+.footer_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: whitesmoke;
+    margin-top: 15px;
+
+}
+
+.footer_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_home a{
+    color: whitesmoke;
+    font-family: calibri;
+    padding-left: 5px;
+    text-decoration: none;
+
+}
+
+.footer_about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_about a{
+    color: whitesmoke;
+    font-family: calibri;
+    padding-left: 5px;
+    text-decoration: none;
+
+}
+
+.footer_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_contact a{
+    color: whitesmoke;
+    font-family: calibri;
+    padding-left: 5px;
+    text-decoration: none;
+
+}
+
+.footer_home a:hover, .footer_contact a:hover, .footer_about a:hover{
+
+            color: hsl(183, 100%, 35%);
+}
+
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.terms{
+    display: flex;
+    justify-content: flex-end;
+    color: whitesmoke;
+    margin-top: 30px;
+    margin-right: 20px;
+    
+}
+
+.terms p{
+    font-family: sans-serif;
+    padding-bottom: 40px;
+}
+
+
+
+
+/* This section od styling below is for the about page*/
+
+.container_about{
+    margin-top: 0px;
+}
+
+.about_me_left{
+    margin-top: 30px;
+}
+
+.music svg{
+    height: 20px;
+}
+
+.about_me{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.about_me_1{
+    color: whitesmoke;
+    font-family: calibri;
+    font-size: 1.4rem;
+}
+
+.about_me_1 span{
+    color: hsl(183, 100%, 35%); ;
+}
+
+.about_me_2 svg{
+    height: 50px;
+}
+
+.about_me_details{
+    padding: 20px 20px;
+    color: whitesmoke;
+    font-family: calibri;
+    word-wrap: break-word;
+    font-size: 1.2rem;
+}
+
+.about_me_details span{
+    font-size: 1.3rem;
+    font-weight: 900;
+
+}
+
+.about_me_right svg{
+
+    height: 50vh;
+    width: 100vw ;
+
+  
+}
+
+
+/* This section od styling below is for the contact page*/
+
+.project_page_svg svg{
+    height: 50vh;
+    width: 100vw;
+}
+
+@media screen and (min-width:500px) {
+
+    .logo{
+        margin-top: 10px;
+        margin-left: 210px;
+        color: whitesmoke;
+        font-family: calibri;
+        letter-spacing: 4px;
+        font-weight: 900;
+        font-size: 2rem;
+    
+    
+    }
+    .theme{
+        margin-top: 50px;
+        color: whitesmoke;
+        font-family: calibri;
+        font-size: 4.3rem;
+    }
+    .arrow svg{
+        display: none;
+    }
+    .links a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: calibri;
+        font-size: 1.5rem;
+    }
+    .call_to_action_1{
+        width: 150px;
+        height: 50px;
+       
+    }
+    .call_to_action_2{
+        width: 250px;
+        height: 50px;
+    }
+    .theme_svg svg{
+        height: 700px;
+        width: 700px;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    .call_to_action{
+        margin-top: 30px;
+        margin-left: 220px;
+    }
+    
+}
+
+
+@media screen and (min-width:1024px) {
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        all:unset;
+        color: whitesmoke;
+        font-family: calibri;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 1.8rem;
+    }
+    .links{
+        margin-top: 0px;
+        display: flex;
+        gap: 50px;
+        margin-right: 50px;
+    
+    }
+    
+    .links a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-family: calibri;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    
+    .links a:hover{
+        color:hsl(183, 100%, 35%);
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .theme{
+        margin-top: 100px;
+        color: whitesmoke;
+        font-family: calibri;
+        font-size: 4.3rem;
+    }
+        
+
+    .theme_svg svg{
+        height: 700px;
+        width: 700px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+}
